@@ -1,0 +1,8 @@
+body {
+    background: hsl(212, 45%, 89%) ;
+    width: 375px;
+}
+img {
+    display: center;
+    size: 0.4em;
+}
