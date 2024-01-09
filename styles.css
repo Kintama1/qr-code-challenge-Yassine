@@ -4,5 +4,8 @@ body {
 }
 img {
     display: center;
-    size: 0.4em;
+    size: 14px;
 }
+h2 {
+    color: green;
+  }
