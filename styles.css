@@ -1,12 +1,47 @@
 
-body {
-    margin: 0,1;
+ body {
+    margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background: hsl(212, 45%, 89%);
    
 }
+/* styling for the white background of the Qr code */
 
+
+
+.whiteBackground{
+    height: 530px;
+    width: 350px;
+    background-color: #ffffff; /* White background color */
+    margin: 20px 25px; /* Add padding as needed */
+    border-radius: 20px;
+}
+.qrCode{
+    height: 315px;
+    width: 350px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width:90%;
+    height:90%;
+    border-radius: 20px;
+}
+.text1{
+    font-family: ;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 5px;
+}
