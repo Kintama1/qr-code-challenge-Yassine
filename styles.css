@@ -10,38 +10,48 @@
    
 }
 /* styling for the white background of the Qr code */
-
-
-
 .whiteBackground{
-    height: 530px;
-    width: 350px;
+    height: 515px;
+    width: 330px;
     background-color: #ffffff; /* White background color */
     margin: 20px 25px; /* Add padding as needed */
     border-radius: 20px;
 }
+/* The div that contains the Qr code iamage */
 .qrCode{
-    height: 315px;
-    width: 350px;
+    height: 300px;
+    width: 330px;
 }
+/* The image */
 img{
+    /* The display and margin 
+    center it in the middle although 
+    I don't understand these options */
     display: block;
     margin: auto;
     margin-top: 15px;
-    width:90%;
-    height:90%;
+    width:92%;
+    height:100%;
     border-radius: 20px;
 }
+@font-face {
+    font-family: outfit;
+    src: url(Outfit.ttf);
+}
+.text1, h3 {
+    font-family: outfit;
+}
 .text1{
-    font-family: ;
-    padding: 10px;
+    margin: 17px 6px 10px;
+    padding:  5px 13px;
     text-align: center;
     font-weight: 700;
 }
-h3{
+.text2{
+    margin: 2px 10px;
     font-size: 15px;
     text-align: center;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    padding: 5px;
+    padding: 5px 20px;
 }
